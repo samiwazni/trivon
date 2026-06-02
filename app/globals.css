@@ -8,7 +8,7 @@
     --line-2:rgba(22,20,15,0.06);
     --accent:#2436E6;
     --ghost:rgba(22,20,15,0.045);
-    --f-word:#2436E6;
+    --f-word:#2436E6;            /* footer wordmark — light theme */
 
     --serif:var(--font-serif),Georgia,serif;
     --sans:var(--font-sans),system-ui,sans-serif;
@@ -24,7 +24,7 @@
     --line-2:rgba(236,233,225,0.07);
     --accent:#7C8BFF;
     --ghost:rgba(236,233,225,0.05);
-    --f-word:#5f5f5f; 
+    --f-word:#ECE7DC;            /* footer wordmark — dark theme */
   }
 
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -106,11 +106,25 @@
   .chap-p{font-size:clamp(16px,1.25vw,19px);line-height:1.62;color:var(--body);
     max-width:58ch;font-weight:400;}
   .chap-p .hl{color:var(--ink);font-weight:600;}
+  .chap-p + .chap-p{margin-top:1.1em;}
+
+  /* ---------- VALUE COLUMNS ---------- */
+  .values{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);
+    margin-top:clamp(34px,5vh,56px);max-width:760px;}
+  @media(max-width:680px){.values{grid-template-columns:1fr;gap:34px;}}
+  .value-col h3{font-family:var(--mono);font-size:12px;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--accent);margin-bottom:20px;
+    padding-bottom:14px;border-bottom:1px solid var(--line);}
+  .value-list{list-style:none;display:flex;flex-direction:column;gap:13px;}
+  .value-list li{font-size:clamp(15px,1.05vw,17px);line-height:1.45;color:var(--body);
+    display:flex;gap:12px;align-items:baseline;}
+  .value-list li::before{content:"";width:6px;height:6px;border-radius:50%;
+    background:var(--accent);flex:none;transform:translateY(-1px);}
 
   /* ---------- FOOTER ---------- */
   footer{border-top:1px solid var(--line);padding:60px 0 70px;}
   footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:26px;}
-  .f-word{font-size:clamp(40px,4vw,104px);font-weight:400;
+  .f-word{font-family:var(--serif);font-size:clamp(40px,8vw,104px);font-weight:400;
     letter-spacing:.07em;line-height:.9;text-transform:uppercase;color:var(--f-word);
     transition:color .7s ease;}
   .f-meta{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;

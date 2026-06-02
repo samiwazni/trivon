@@ -25,13 +25,13 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TRIVON — The layer the modern city runs on",
+  title: "TRIVON — Smart living for Egypt & MENA",
   description:
-    "TRIVON is building the autonomous layer the modern city runs on — starting with last-mile delivery across the smart communities of Egypt and the wider MENA region. A Tekniikkatie venture.",
+    "TRIVON is building the smart-living layer the modern city runs on across Egypt and the wider MENA region — bringing delivery robotics, AI and smart-home technology to the region's new cities. A Tekniikkatie venture.",
   openGraph: {
-    title: "TRIVON — The layer the modern city runs on",
+    title: "TRIVON — Smart living for Egypt & MENA",
     description:
-      "Building the autonomous layer the modern city runs on, across Egypt and the wider MENA region.",
+      "Building the smart-living layer the modern city runs on — robotics, AI and smart homes across Egypt and the wider MENA region.",
     type: "website",
   },
 };

@@ -51,7 +51,7 @@ export default function RouteBot({
       <circle className="r-node" cx={start[0]} cy={start[1]} r="4.6" />
       <circle className="r-node r-dest" cx={end[0]} cy={end[1]} r="4.6" />
       <g className="r-bot">
-        <rect x="-9.5" y="-6" width="25" height="15" rx="3.2" />
+        <rect x="-9.5" y="-6" width="19" height="11" rx="3.2" />
         <circle className="r-eye" cx="4.8" cy="0" r="1.6" />
         <animateMotion
           dur={dur}

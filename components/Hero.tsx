@@ -5,13 +5,11 @@ export default function Hero() {
     <section className="hero">
       <div className="wrap">
         <div className="eyebrow reveal in">
-          Smart living for Egypt &amp; MENA
+          Smarter Communities Start Here
         </div>
 
         <p className="lead reveal in d1">
-          We&rsquo;re building the layer the modern city runs on. It begins the
-          moment the things you need <em>find their own way to you</em> &mdash;
-          and it does not stop there.
+          Imagine living in a compound that <em>thinks ahead.</em>
         </p>
 
         <div className="routeline reveal in d2">
@@ -27,7 +25,7 @@ export default function Hero() {
         <div className="hero-foot reveal in d2">
           <span className="scrolldown">Scroll</span>
           <span className="ln" />
-          <span>Est. 2026 · a Tekniikkatie venture</span>
+          <span>Powered by Starship · Operated by TRIVON</span>
         </div>
       </div>
     </section>
