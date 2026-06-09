@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="row">
           <div className="f-word">Trivon</div>
           <div className="f-meta">
-            A Tekniikkatie venture
+            Trivon a Tekniikkatie Venture
             <br />
             Robotics · AI · Smart homes
             <br />

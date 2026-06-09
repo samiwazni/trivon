@@ -25,6 +25,7 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.trivon.vip"),
   title: "TRIVON — Smart living for Egypt & MENA",
   description:
     "TRIVON is building the smart-living layer the modern city runs on across Egypt and the wider MENA region — bringing delivery robotics, AI and smart-home technology to the region's new cities. A Tekniikkatie venture.",
@@ -33,6 +34,14 @@ export const metadata: Metadata = {
     description:
       "Building the smart-living layer the modern city runs on — robotics, AI and smart homes across Egypt and the wider MENA region.",
     type: "website",
+    url: "https://www.trivon.vip",
+    siteName: "TRIVON",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TRIVON — Smart living for Egypt & MENA",
+    description:
+      "Building the smart-living layer the modern city runs on — robotics, AI and smart homes across Egypt and the wider MENA region.",
   },
 };
 
