@@ -82,7 +82,7 @@ export default function Home() {
           id="ground"
           num="03"
           label="On the Ground"
-          heading="TRIVON operates this locally."
+          heading="WE operates this locally."
           route={{
             path: "M12,98 C52,98 52,28 92,28 C132,28 132,86 160,70",
             start: [12, 98],
