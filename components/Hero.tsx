@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="hero-foot reveal in d2">
           <span className="scrolldown">Scroll</span>
           <span className="ln" />
-          <span>Powered by Starship · Operated by TRIVON</span>
+          <span>Powered & Operated by TRIVON</span>
         </div>
       </div>
     </section>
