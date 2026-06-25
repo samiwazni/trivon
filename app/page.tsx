@@ -22,7 +22,7 @@ export default function Home() {
         >
           <p className="chap-p reveal d2">
             Families order groceries, medicine and dinner through their compound
-            app. Minutes later, a quiet autonomous Starship robot moves safely
+            app. Minutes later, a quiet autonomous robot moves safely
             through the community, arriving directly at their doorstep.
           </p>
           <p className="chap-p reveal d2">
@@ -47,7 +47,7 @@ export default function Home() {
           heading="A connected living ecosystem."
         >
           <p className="chap-p reveal d2">
-            Together, TRIVON and Starship are transforming compounds into
+            Together, TRIVON and Our robot providers are transforming compounds into
             connected living ecosystems where innovation creates real comfort
             for people.
           </p>
@@ -82,7 +82,7 @@ export default function Home() {
           id="ground"
           num="03"
           label="On the Ground"
-          heading="TRIVON operates this locally."
+          heading="We operates this locally."
           route={{
             path: "M12,98 C52,98 52,28 92,28 C132,28 132,86 160,70",
             start: [12, 98],
@@ -111,12 +111,12 @@ export default function Home() {
           heading="The next generation of compound living."
         >
           <p className="chap-p reveal d2">
-            TRIVON and Starship are introducing the next generation of
+            TRIVON and Our robot providers are introducing the next generation of
             autonomous infrastructure designed specifically for smart compounds
             and future cities across Egypt and the MENA region.
           </p>
           <p className="chap-p reveal d2">
-            By combining Starship’s proven autonomous technology with TRIVON’s
+            By combining Our robot providers’ proven autonomous technology with TRIVON’s
             regional implementation expertise, we create scalable ecosystems
             where innovation becomes part of everyday urban life.
           </p>
@@ -139,7 +139,7 @@ export default function Home() {
             Technology should not feel complicated. It should feel effortless.
           </p>
           <p className="chap-p reveal d2">
-            Together, TRIVON and Starship create environments where intelligent
+            Together, TRIVON and Our robot providers create environments where intelligent
             systems reduce stress, simplify daily routines and improve quality
             of life for residents.
           </p>
@@ -156,7 +156,7 @@ export default function Home() {
           id="alliance"
           num="06"
           label="The Alliance"
-          heading="Powered by Starship. Operated by TRIVON."
+          heading="Powered & Operated by TRIVON."
         >
           <p className="chap-p reveal d2">
             Global autonomous technology requires strong local execution. TRIVON
