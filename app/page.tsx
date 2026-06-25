@@ -2,6 +2,9 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Chapter from "@/components/Chapter";
 import ValueColumns from "@/components/ValueColumns";
+import StatRow from "@/components/StatRow";
+import Timeline from "@/components/Timeline";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import SiteEffects from "@/components/SiteEffects";
 
@@ -170,8 +173,114 @@ export default function Home() {
             technology into real-world infrastructure and everyday experience.
           </p>
         </Chapter>
+
+        {/* 07 — the partnership */}
+        <Chapter
+          id="partnership"
+          num="07"
+          label="The Partnership"
+          heading="We have the market. We’re looking for the robots."
+        >
+          <p className="chap-p reveal d2">
+            We&rsquo;re building the autonomous delivery layer for Egypt and the
+            wider MENA region. To scale it intelligently, we partner with proven
+            robotics companies ready to expand into one of the world&rsquo;s
+            largest emerging markets.
+          </p>
+          <p className="chap-p reveal d2">
+            We&rsquo;re looking for autonomous delivery partners who:
+          </p>
+          <ul className="criteria reveal d2">
+            <li>Have proven technology — deployed, operational, validated</li>
+            <li>Understand last-mile delivery logistics</li>
+            <li>Are ready to expand beyond their current markets</li>
+            <li>Operate small-scale, pavement-level delivery units</li>
+            <li>Can support a July 2026 deployment</li>
+          </ul>
+          <StatRow
+            stats={[
+              { value: "$542.9M", label: "Egypt delivery market, 2025" },
+              { value: "10%", label: "Annual MENA growth" },
+              { value: "200+", label: "Gated compounds" },
+              { value: "1M+", label: "Affluent residents" },
+            ]}
+          />
+        </Chapter>
+
+        {/* 08 — the model */}
+        <Chapter
+          id="model"
+          num="08"
+          label="The Model"
+          heading="You own the robots. We run the ground."
+        >
+          <p className="chap-p reveal d2">
+            A revenue-share partnership with zero capital requirement from the
+            robot provider. You bring the platform; we bring the market and the
+            local execution.
+          </p>
+          <ValueColumns
+            columns={[
+              {
+                title: "What TRIVON brings",
+                items: [
+                  "Access to 200+ compounds, 1M+ residents",
+                  "Local operations — logistics & customer service",
+                  "Maintenance and on-the-ground technical support",
+                  "Regulatory coordination and compliance",
+                  "A regional expansion path: Egypt → MENA",
+                ],
+              },
+              {
+                title: "What you provide",
+                items: [
+                  "Autonomous delivery robots (ownership retained)",
+                  "The robot platform and management system",
+                  "Technical support and integration assistance",
+                  "A scalable deployment infrastructure",
+                ],
+              },
+            ]}
+          />
+        </Chapter>
+
+        {/* 09 — the timeline */}
+        <Chapter
+          id="timeline"
+          num="09"
+          label="The Timeline"
+          heading="Ready for July 2026."
+          route={{
+            path: "M12,98 C52,98 52,28 92,28 C132,28 132,86 160,70",
+            start: [12, 98],
+            end: [160, 70],
+            viewBox: "0 0 172 120",
+            dur: "5.5s",
+          }}
+        >
+          <Timeline
+            phases={[
+              {
+                when: "July 2026",
+                title: "Pilot",
+                body: "One robot in one compound — real-world operational validation, customer-adoption testing and market proof-of-concept.",
+              },
+              {
+                when: "August – September 2026",
+                title: "Scaling",
+                body: "Expansion to multiple compounds, higher delivery volume and operational optimisation across the network.",
+              },
+              {
+                when: "October 2026 onward",
+                title: "Regional rollout",
+                body: "Full deployment across 20+ compounds and a path into the wider MENA region.",
+              },
+            ]}
+          />
+        </Chapter>
       </main>
 
+      <Contact />
       <Footer />
       <SiteEffects />
     </>
