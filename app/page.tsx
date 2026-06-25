@@ -195,7 +195,7 @@ export default function Home() {
             <li>Understand last-mile delivery logistics</li>
             <li>Are ready to expand beyond their current markets</li>
             <li>Operate small-scale, pavement-level delivery units</li>
-            <li>Can support a July 2026 deployment</li>
+            <li>Can support 1–3 robots for a July deployment</li>
           </ul>
           <StatRow
             stats={[
@@ -234,7 +234,7 @@ export default function Home() {
               {
                 title: "What you provide",
                 items: [
-                  "Autonomous delivery robots (ownership retained)",
+                  "1–3 autonomous delivery robots for the pilot (ownership retained)",
                   "The robot platform and management system",
                   "Technical support and integration assistance",
                   "A scalable deployment infrastructure",
@@ -261,7 +261,7 @@ export default function Home() {
           <Timeline
             phases={[
               {
-                when: "July 2026",
+                when: "July – August 2026",
                 title: "Pilot",
                 body: "One robot in one compound — real-world operational validation, customer-adoption testing and market proof-of-concept.",
               },
@@ -277,6 +277,12 @@ export default function Home() {
               },
             ]}
           />
+          <br />
+          <p className="chap-p reveal d2">
+            <span className="hl">The timeline is flexible</span> based on robot-provider
+            logistics. We can launch July, August or September &mdash; let&rsquo;s work
+            together on what fits.
+          </p>
         </Chapter>
       </main>
 
