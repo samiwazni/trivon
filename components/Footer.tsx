@@ -2,6 +2,10 @@ export default function Footer() {
   return (
     <footer>
       <div className="wrap">
+        <p className="f-tag">
+          Your robots. Our market.{" "}
+          <span className="hl">Let&rsquo;s scale MENA together.</span>
+        </p>
         <div className="row">
           <div className="f-word">Trivon</div>
           <div className="f-meta">

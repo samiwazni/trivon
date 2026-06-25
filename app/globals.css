@@ -175,6 +175,10 @@
 
   /* ---------- FOOTER ---------- */
   footer{border-top:1px solid var(--line);padding:60px 0 70px;}
+  .f-tag{font-family:var(--serif);font-weight:300;
+    font-size:clamp(22px,3vw,38px);line-height:1.1;letter-spacing:-.012em;
+    color:var(--soft);max-width:20ch;margin-bottom:clamp(40px,6vh,64px);}
+  .f-tag .hl{color:var(--ink);}
   footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:26px;}
   .f-word{font-family:var(--sans);font-size:clamp(28px,5.5vw,72px);font-weight:600;
     letter-spacing:.36em;line-height:.9;text-transform:uppercase;color:var(--f-word);

@@ -50,7 +50,7 @@ export default function Home() {
           heading="A connected living ecosystem."
         >
           <p className="chap-p reveal d2">
-            Together, TRIVON and Our robot providers are transforming compounds into
+            Together, TRIVON and our robot providers are transforming compounds into
             connected living ecosystems where innovation creates real comfort
             for people.
           </p>
@@ -85,7 +85,7 @@ export default function Home() {
           id="ground"
           num="03"
           label="On the Ground"
-          heading="We operates this locally."
+          heading="We operate this locally."
           route={{
             path: "M12,98 C52,98 52,28 92,28 C132,28 132,86 160,70",
             start: [12, 98],
@@ -114,12 +114,12 @@ export default function Home() {
           heading="The next generation of compound living."
         >
           <p className="chap-p reveal d2">
-            TRIVON and Our robot providers are introducing the next generation of
+            TRIVON and our robot providers are introducing the next generation of
             autonomous infrastructure designed specifically for smart compounds
             and future cities across Egypt and the MENA region.
           </p>
           <p className="chap-p reveal d2">
-            By combining Our robot providers’ proven autonomous technology with TRIVON’s
+            By combining our robot providers’ proven autonomous technology with TRIVON’s
             regional implementation expertise, we create scalable ecosystems
             where innovation becomes part of everyday urban life.
           </p>
@@ -142,7 +142,7 @@ export default function Home() {
             Technology should not feel complicated. It should feel effortless.
           </p>
           <p className="chap-p reveal d2">
-            Together, TRIVON and Our robot providers create environments where intelligent
+            Together, TRIVON and our robot providers create environments where intelligent
             systems reduce stress, simplify daily routines and improve quality
             of life for residents.
           </p>
