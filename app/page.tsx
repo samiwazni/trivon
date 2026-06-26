@@ -121,7 +121,7 @@ export default function Home() {
           <p className="chap-p reveal d2">
             TRIVON and our robot partners are introducing autonomous
             infrastructure designed specifically for smart compounds and future
-            cities across Egypt and the MENA region.
+            cities across Egypt.
           </p>
           <p className="chap-p reveal d2">
             By combining proven autonomous technology with TRIVON’s regional
