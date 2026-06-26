@@ -254,6 +254,7 @@ export default function Home() {
               },
             ]}
           />
+          <br />
           <p className="chap-p reveal d2">
             <span className="hl">That&rsquo;s it. We handle the rest.</span>
           </p>
