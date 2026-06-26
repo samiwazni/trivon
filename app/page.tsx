@@ -50,7 +50,7 @@ export default function Home() {
           heading="A connected living ecosystem."
         >
           <p className="chap-p reveal d2">
-            Together, TRIVON and our robot providers are transforming compounds into
+            Together, TRIVON and our robot partners are transforming compounds into
             connected living ecosystems where innovation creates real comfort
             for people.
           </p>
@@ -85,7 +85,7 @@ export default function Home() {
           id="ground"
           num="03"
           label="On the Ground"
-          heading="We operate this locally."
+          heading="We operate this locally. Right now."
           route={{
             path: "M12,98 C52,98 52,28 92,28 C132,28 132,86 160,70",
             start: [12, 98],
@@ -96,13 +96,18 @@ export default function Home() {
         >
           <p className="chap-p reveal d2">
             From pilot execution and smart-city coordination to operational
-            management and regulatory integration across Egypt and MENA.
+            management and regulatory integration across Egypt and MENA &mdash;
+            TRIVON is on the ground.
           </p>
           <p className="chap-p reveal d2">
             Our value is not just technology inside a compound. It is{" "}
             <span className="hl">
               the beginning of a new regional standard for intelligent living.
             </span>
+          </p>
+          <p className="chap-p reveal d2">
+            We&rsquo;ve already mapped the regulatory pathway. We have the team in
+            place. We have the compounds ready.
           </p>
         </Chapter>
 
@@ -111,23 +116,22 @@ export default function Home() {
           id="next-generation"
           num="04"
           label="The Next Generation"
-          heading="The next generation of compound living."
+          heading="The next generation of compound living is starting now."
         >
           <p className="chap-p reveal d2">
-            TRIVON and our robot providers are introducing the next generation of
-            autonomous infrastructure designed specifically for smart compounds
-            and future cities across Egypt and the MENA region.
+            TRIVON and our robot partners are introducing autonomous
+            infrastructure designed specifically for smart compounds and future
+            cities across Egypt and the MENA region.
           </p>
           <p className="chap-p reveal d2">
-            By combining our robot providers’ proven autonomous technology with TRIVON’s
-            regional implementation expertise, we create scalable ecosystems
-            where innovation becomes part of everyday urban life.
+            By combining proven autonomous technology with TRIVON’s regional
+            implementation expertise, we create scalable ecosystems where
+            innovation becomes part of everyday urban life.
           </p>
           <p className="chap-p reveal d2">
-            From pilot projects and regulatory integration to full operational
-            management, TRIVON enables the successful regional rollout of
-            autonomous delivery solutions built for the future of connected
-            communities.
+            From pilot projects to regulatory integration to full operational
+            management &mdash; TRIVON makes autonomous delivery work on the
+            ground, in the real world, at scale.
           </p>
         </Chapter>
 
@@ -142,7 +146,7 @@ export default function Home() {
             Technology should not feel complicated. It should feel effortless.
           </p>
           <p className="chap-p reveal d2">
-            Together, TRIVON and our robot providers create environments where intelligent
+            Together, TRIVON and our robot partners create environments where intelligent
             systems reduce stress, simplify daily routines and improve quality
             of life for residents.
           </p>
@@ -174,29 +178,35 @@ export default function Home() {
           </p>
         </Chapter>
 
-        {/* 07 — the partnership */}
+        {/* 07 — the market we have */}
         <Chapter
-          id="partnership"
+          id="market"
           num="07"
-          label="The Partnership"
-          heading="We have the market. We’re looking for the robots."
+          label="The Market We Have"
+          heading="We have the market. Now we’re looking for the robots."
         >
+          <p className="chap-sub reveal d2">Here’s what’s real</p>
           <p className="chap-p reveal d2">
-            We&rsquo;re building the autonomous delivery layer for Egypt and the
-            wider MENA region. To scale it intelligently, we partner with proven
-            robotics companies ready to expand into one of the world&rsquo;s
-            largest emerging markets.
+            We&rsquo;ve secured access to 200+ gated compounds across Egypt and
+            the MENA region &mdash; 1M+ affluent residents ready for autonomous
+            delivery.
           </p>
           <p className="chap-p reveal d2">
-            We&rsquo;re looking for autonomous delivery partners who:
+            Our developer partnership is confirmed. Our operational team is in
+            place. Our regulatory pathway is mapped. July 2026 is locked in.
           </p>
-          <ul className="criteria reveal d2">
-            <li>Have proven technology — deployed, operational, validated</li>
-            <li>Understand last-mile delivery logistics</li>
-            <li>Are ready to expand beyond their current markets</li>
-            <li>Operate small-scale, pavement-level delivery units</li>
-            <li>Can support 1–3 robots for a July deployment</li>
-          </ul>
+          <p className="chap-p reveal d2">
+            <span className="hl">The market is not theoretical. It&rsquo;s ready.</span>
+          </p>
+          <p className="chap-sub reveal d2">The opportunity</p>
+          <p className="chap-p reveal d2">
+            Egypt&rsquo;s delivery market is $542.9M. MENA grows at 10% annually.
+            Zero autonomous delivery competition exists yet. We are first.
+          </p>
+          <p className="chap-sub reveal d2">What we need</p>
+          <p className="chap-p reveal d2">
+            A proven robotics partner ready to deploy and scale with us.
+          </p>
           <StatRow
             stats={[
               { value: "$542.9M", label: "Egypt delivery market, 2025" },
@@ -216,32 +226,38 @@ export default function Home() {
         >
           <p className="chap-p reveal d2">
             A revenue-share partnership with zero capital requirement from the
-            robot provider. You bring the platform; we bring the market and the
-            local execution.
+            robot provider.
           </p>
           <ValueColumns
             columns={[
               {
-                title: "What TRIVON brings",
+                title: "What TRIVON has secured (today)",
                 items: [
                   "Access to 200+ compounds, 1M+ residents",
-                  "Local operations — logistics & customer service",
+                  "Developer partnership confirmed",
+                  "Regulatory pathway mapped",
+                  "Operational team in place",
+                  "July 2026 pilot location confirmed",
+                  "Local operations, logistics & customer service",
                   "Maintenance and on-the-ground technical support",
                   "Regulatory coordination and compliance",
-                  "A regional expansion path: Egypt → MENA",
+                  "Regional expansion path: Egypt → MENA",
                 ],
               },
               {
-                title: "What you provide",
+                title: "What we need from you",
                 items: [
-                  "1–3 autonomous delivery robots for the pilot (ownership retained)",
-                  "The robot platform and management system",
+                  "1–3 autonomous delivery robots for the pilot (you retain ownership)",
+                  "Proven autonomous platform & management system",
                   "Technical support and integration assistance",
-                  "A scalable deployment infrastructure",
+                  "Scalable deployment infrastructure",
                 ],
               },
             ]}
           />
+          <p className="chap-p reveal d2">
+            <span className="hl">That&rsquo;s it. We handle the rest.</span>
+          </p>
         </Chapter>
 
         {/* 09 — the timeline */}
@@ -249,7 +265,7 @@ export default function Home() {
           id="timeline"
           num="09"
           label="The Timeline"
-          heading="Ready for July 2026."
+          heading="Ready. Let’s go."
           route={{
             path: "M12,98 C52,98 52,28 92,28 C132,28 132,86 160,70",
             start: [12, 98],
@@ -263,25 +279,41 @@ export default function Home() {
               {
                 when: "July – August 2026",
                 title: "Pilot",
-                body: "One robot in one compound — real-world operational validation, customer-adoption testing and market proof-of-concept.",
+                body: "One robot in one compound. Real-world operational validation. Customer-adoption testing. Market proof-of-concept. This is where we prove it works.",
               },
               {
                 when: "August – September 2026",
                 title: "Scaling",
-                body: "Expansion to multiple compounds, higher delivery volume and operational optimisation across the network.",
+                body: "Expansion to multiple compounds. Higher delivery volume. Operational optimisation across the network. We move fast once we know it works.",
               },
               {
                 when: "October 2026 onward",
                 title: "Regional rollout",
-                body: "Full deployment across 20+ compounds and a path into the wider MENA region.",
+                body: "Full deployment across 20+ compounds. Path into the wider MENA region. This becomes standard.",
               },
             ]}
           />
-          <br />
+        </Chapter>
+
+        {/* 10 — how this works */}
+        <Chapter
+          id="how"
+          num="10"
+          label="How This Works"
+          heading="Built for July."
+        >
           <p className="chap-p reveal d2">
-            <span className="hl">The timeline is flexible</span> based on robot-provider
-            logistics. We can launch July, August or September &mdash; let&rsquo;s work
-            together on what fits.
+            <span className="hl">July is our target.</span> We&rsquo;re built for
+            it. Our compounds are ready. Our team is in place.
+          </p>
+          <p className="chap-p reveal d2">
+            If your robot logistics require adjustment, August or September work
+            &mdash; but we&rsquo;re built for a July launch.
+          </p>
+          <p className="chap-p reveal d2">
+            The timeline is flexible based on robot-provider logistics. Let&rsquo;s
+            work together on what fits. But the market doesn&rsquo;t wait.{" "}
+            <span className="hl">Neither do we.</span>
           </p>
         </Chapter>
       </main>
