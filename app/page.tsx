@@ -187,8 +187,7 @@ export default function Home() {
         >
           <p className="chap-sub reveal d2">Here’s what’s real</p>
           <p className="chap-p reveal d2">
-            We&rsquo;ve secured access to 200+ gated compounds across Egypt and
-            the MENA region &mdash; 1M+ affluent residents ready for autonomous
+            We&rsquo;ve secured access to 200+ gated compounds across Egypt. 1M+ affluent residents ready for autonomous
             delivery.
           </p>
           <p className="chap-p reveal d2">
